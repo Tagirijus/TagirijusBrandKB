@@ -3,7 +3,7 @@ extract = $(shell grep -A2 $(1) Plugin.php | tail -n1 | tr -d " ;'" | sed "s/ret
 plugin = $(call extract, getPluginName)
 version = $(call extract, getPluginVersion)
 
-files = LICENSE README.md Plugin.php Assets/ Screenshots/ Template/
+files = LICENSE README.md Plugin.php Assets/ Template/
 
 all:
 	@echo "Build archive for plugin ${plugin} version=${version}"
