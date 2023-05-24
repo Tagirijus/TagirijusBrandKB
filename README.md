@@ -4,18 +4,9 @@
 
 This plugin adds my logo into Kanboard. So far:
 
+- Login-Screen
 - Header logo
 - Favicon
-
-
-Screenshots
--------------
-
-**Example**
-
-![Tagirijus banding activated on light theme](../master/Screenshots/TagiBrandLight.png)
-
-![Tagirijus banding activated on dark theme](../master/Screenshots/TagiBrandDark.png)
 
 
 Compatibility
