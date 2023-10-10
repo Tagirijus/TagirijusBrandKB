@@ -35,11 +35,6 @@
         <?php $logo = '/plugins/TagirijusBrandKB/Assets/img/tagirijus_logo_circle_red_50x50.png'; ?>
         <link rel="icon" type="image/png" href="<?= $logo ?>">
 
-        <link rel="apple-touch-icon" href="<?= $this->url->dir() ?>assets/img/touch-icon-iphone.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->dir() ?>assets/img/touch-icon-ipad.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="<?= $this->url->dir() ?>assets/img/touch-icon-iphone-retina.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="<?= $this->url->dir() ?>assets/img/touch-icon-ipad-retina.png">
-
         <title>
             <?php if (isset($page_title)): ?>
                 <?= $this->text->e($page_title) ?>
